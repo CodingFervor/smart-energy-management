@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: localhost
+  port: 5432
+  user: energy
+  password: energy123
+  dbname: energy_db
+  sslmode: disable
+
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  db: 0
+
+jwt:
+  secret: smart-energy-management-secret-key
+  expire_hours: 24
